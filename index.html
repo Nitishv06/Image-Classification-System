@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Classifier 🖼️</h1>
+        <p>Upload an image and let the AI tell you what it is!</p>
+        <div class="upload-area">
+            <input type="file" id="image-upload" accept="image/*">
+            <label for="image-upload" class="upload-label">Choose an Image</label>
+        </div>
+        <div id="image-preview" style="display: none;">
+            <img id="uploaded-image" src="#" alt="Image Preview">
+        </div>
+        <div id="result-area" style="display: none;">
+            <h2>Prediction:</h2>
+            <p id="prediction-text"></p>
+        </div>
+        <div id="message-area"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
