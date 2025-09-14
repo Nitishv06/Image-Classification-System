@@ -22,10 +22,3 @@ This is a full-stack web application that uses a deep learning model to classify
 3.  **Download a Model**: Obtain a pre-trained image classification model (e.g., from TensorFlow Hub) and save it in your project directory. Update the `model_path` variable in `app.py`.
 4.  **Start the Server**: Run the command `python app.py`. The server will start on `http://127.0.0.1:5000`.
 5.  **Open in Browser**: Open your browser and navigate to the server address to use the application.
-
-This project is a fantastic way to stand out by showing you can build and deploy a real-world machine learning application.
-
-<br>
-This video provides some great ideas for innovative projects you can build for your GitHub profile.
-[16 Cool GitHub Repos You WILL Use (no pressure)](https://www.youtube.com/watch?v=cgOPg5cCr2g)
-http://googleusercontent.com/youtube_content/0
